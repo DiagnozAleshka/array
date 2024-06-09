@@ -6,7 +6,7 @@ public class summSalesTest {
 
     @Test
     public void test() {
-        summSales service = new summSales();
+        summSales` service = new summSales();
         int expected = 180;
         int [] month = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int actuall = service.summ(month);
